@@ -1,13 +1,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Ubuntu, sans-serif; }
+  font-family: Ubuntu, sans-serif;
+  overflow-x: hidden; }
 
 .section-header {
-  height: 100vh; }
+  height: 100vh;
+  width: 100vw; }
 
 .section {
-  height: 100%; }
+  height: 100%;
+  width: 100vw; }
 
 .carousell-red {
   color: #e63d3d; }
@@ -22,10 +25,13 @@ html, body {
   #social-list li {
     display: inline; }
 
-#contact-list li {
-  display: inline;
-  color: black;
-  font-size: 50px; }
+#contact-list {
+  margin: 0;
+  padding: 0; }
+  #contact-list li {
+    display: inline;
+    color: black;
+    font-size: 50px; }
 
 .header-margin {
   margin-top: 50px; }
