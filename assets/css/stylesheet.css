@@ -296,3 +296,14 @@ h1, h2, h3, h4, h5, h6 {
 .max-width {
 	width: 100%;
 }
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+

@@ -1,0 +1,113 @@
+$carousell-red: #e63d3d;
+
+html, body {
+margin: 0;
+padding: 0;
+font-family: Ubuntu, sans-serif;
+}
+
+.section-header {
+	height: 100vh;
+}
+
+.section {
+	height: 100%;
+}
+
+.carousell-red {
+	color: $carousell-red;
+}
+
+.hide {
+	opacity: 0;
+	//display: none;
+  //visibility: hidden;
+}
+
+#social-list {
+	position: fixed;
+	bottom: 5px;
+	right: 15px;
+	li {
+		display: inline;
+	}
+}
+
+#contact-list {
+	li {
+		display: inline;
+		color: black;
+		font-size: 50px;
+	}
+}
+
+.header-margin {
+	margin-top: 50px;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+/* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 50px; /* half of limiter */
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+.thumbnail {
+	width: 7rem;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+.rotate270 {
+ -webkit-transform: rotate(270deg);
+ -moz-transform: rotate(270deg);
+ -o-transform: rotate(270deg);
+ -ms-transform: rotate(270deg);
+ transform: rotate(270deg);
+ }
