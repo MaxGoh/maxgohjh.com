@@ -37,6 +37,12 @@
 			</div>
 		</section>
 
+		<ul id="social-list" class="hide">
+			<li><a href="https://www.facebook.com/max.goh.31"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.instagram.com/maxgoh"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.github.com/maxgoh"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+		</ul>
+
 
 		<!-- Main -->
 		<div id="main" class="hide">
@@ -402,7 +408,7 @@
 $(window).on('load', function() {
 	setTimeout(function() {
 		$("#preloader").addClass("hide");
-		$("#main").removeClass("hide");
+		$("#main, #social-list").removeClass("hide");
 	}, 2000);
 })
 </script>

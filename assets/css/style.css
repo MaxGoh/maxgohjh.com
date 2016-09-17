@@ -22,9 +22,17 @@ html, body {
 #social-list {
   position: fixed;
   bottom: 5px;
-  right: 15px; }
+  right: 15px;
+  z-index: 1000; }
+  #social-list a {
+    color: #222;
+    transition: color 0.5s ease; }
+  #social-list a:hover {
+    color: #03a9f4; }
   #social-list li {
-    display: inline; }
+    display: inline;
+    font-size: 2.5em;
+    padding: 5px; }
 
 #contact-list {
   margin: 0;
