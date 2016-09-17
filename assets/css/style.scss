@@ -177,3 +177,9 @@ img {
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
