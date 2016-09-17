@@ -1,13 +1,10 @@
-const webpack = require('webpack'),
-	path = require('path');
-
+webpack = require('webpack'),
+path = require('path');
 
 module.exports = {
-	entry: {
-		main: ['./assets/main.js', './assets/style.js'],
-	},
+	entry: "./assets/main.js",
 	output: {
-		path: './assets/bundle/',
+		path: './public/js/',
 		filename: '[name].bundle.js'
 	},
   module: {
@@ -17,6 +14,13 @@ module.exports = {
         loaders: ["style", "css", "sass"]
       },
       { test: /\.css$/, loader: "style-loader!css-loader" },
+			{
+					test: /\.(jpe?g|png|gif|svg)$/i,
+					loaders: [
+							'file?hash=sha512&digest=hex&name=[hash].[ext]',
+							'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+					]
+			}
     ]
   }
 };

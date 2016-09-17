@@ -24,7 +24,7 @@ html, body {
 .hide {
 	opacity: 0;
 	//display: none;
-  //visibility: hidden;
+	//visibility: hidden;
 }
 
 #social-list {
@@ -51,54 +51,54 @@ html, body {
 }
 
 .fancy {
-  line-height: 0.5;
-  text-align: center;
+	line-height: 0.5;
+	text-align: center;
 }
 .fancy span {
-  display: inline-block;
-  position: relative;  
+	display: inline-block;
+	position: relative;  
 }
 .fancy span:before,
 .fancy span:after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-  top: 0;
-  width: 600px;
+	content: "";
+	position: absolute;
+	height: 5px;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	top: 0;
+	width: 600px;
 }
 .fancy span:before {
-  right: 100%;
-  margin-right: 15px;
+	right: 100%;
+	margin-right: 15px;
 }
 .fancy span:after {
-  left: 100%;
-  margin-left: 15px;
+	left: 100%;
+	margin-left: 15px;
 }
 
 /* headlines with lines */
 .decorated{
-     overflow: hidden;
-     text-align: center;
- }
+	overflow: hidden;
+	text-align: center;
+}
 .decorated > span{
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 .decorated > span:before, .decorated > span:after{
-    content: '';
-    position: absolute;
-    top: 50%;
-    border-bottom: 2px solid;
-    width: 50px; /* half of limiter */
-    margin: 0 20px;
+	content: '';
+	position: absolute;
+	top: 50%;
+	border-bottom: 2px solid;
+	width: 50px; /* half of limiter */
+	margin: 0 20px;
 }
 .decorated > span:before{
-    right: 100%;
+	right: 100%;
 }
 .decorated > span:after{
-    left: 100%;
+	left: 100%;
 }
 
 .thumbnail {
@@ -106,13 +106,74 @@ html, body {
 }
 
 img {
-    image-orientation: from-image;
+	image-orientation: from-image;
 }
 
 .rotate270 {
- -webkit-transform: rotate(270deg);
- -moz-transform: rotate(270deg);
- -o-transform: rotate(270deg);
- -ms-transform: rotate(270deg);
- transform: rotate(270deg);
- }
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.breadtalk {
+	background-image: url(http://muktiutamadigital.com/wp-content/uploads/2013/09/BREADTALK.jpg);
+	//background: url(https://avatars0.githubusercontent.com/u/15903396?v=3&s=400) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.logo {
+	height: 300px;
+	width: 300px;
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #2994D1;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}

@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16" />
 
 		<title>Max Goh | Web Developer | Portfolio</title>
 
@@ -9,66 +10,67 @@
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src="https://use.fontawesome.com/4938d87c32.js"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/animations.css">
-		<!--<link rel="stylesheet" type="text/css" href="assets/css/onepage-scroll.css">-->
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/animations.css" rel="stylesheet">
+		<link href="assets/css/lightbox.css" rel="stylesheet">
+		<link href="assets/css/timelify.css" rel="stylesheet">
 	</head>
 	<body>
 
 		<!-- Main -->
 		<!--<div class="main container">-->
 			<!-- Section (Introduction) -->
-			<section id="intro" class="section-header valign-wrapper">
+			<section id="intro" class="section-header valign-wrapper teal lighten-5">
 				<div class="container">
 					<div class="center-block valign">
 						<div class="animatedParent" data-sequence="1000'">
 							<h1 id="intro-text" class="center-align animated bounceInDown animateOnce" data-id="1">Hi, <span class="carousell-red">Team Carousell</span>.</h1>
 							<h4 id="intro-objective" class="center-align animated bounceInUp animateOnce" data-id="2">I would like to be part of the community as a <span class="teal-text">Software Backend Engineer</span></h4>
+							<svg class="arrows">
+								<path class="a1" d="M0 0 L30 32 L60 0"></path>
+								<path class="a2" d="M0 20 L30 52 L60 20"></path>
+								<path class="a3" d="M0 40 L30 72 L60 40"></path>
+							</svg>
 						</div>
 					</div>
 				</div>
 			</section>
 			<!-- Section (Introduction) -->
 
-			<hr class="section-divider">
+			<!--<hr class="section-divider">-->
 
 			<!-- Section (Description) -->
-			<section id="description" class="section">
+			<section id="description" class="section animatedParent cyan lighten-5" data-sequence="1000'">
 				<div class="container">
 					<div class="row">
 						<div class="animatedParent" data-sequence="1000'">
-							<h1 class="center-align header-margin animated fadeIn" data-id="3">Who am I?</h1>
+							<h1 class="center-align header-margin animated bounceInDown" data-id="3">Who am I?</h1>
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="center-align">
-							<h2 class="decorated"><span>Max Goh</span></h2>
-							<ul id="contact-list">
-								<li><a class="teal-text large" href="https://github.com/maxgoh"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-								</li>
-								<li><a class="teal-text" href="https://instagram.com/maxgohjh"><i class="fa fa-github" aria-hidden="true"></i></a>
-								</li>
-							</ul>
+							<!--<h2 class="decorated"><span>Max Goh</span></h2>-->
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col s12 m12 animatedParent" data-sequence="2000">
-							<div class="card-panel white hoverable animated bounceInRight" data-id="4">
-								<span class="teal-text">My name is Max Goh. I graduated from Ngee Ann Polytechnic on 2013 with a Diploma in Electronics & Computer Engineering. I have then spent the next 2 years serving the military as a Infantry Sergeant. I have been working as a Software Engineer for Trinax PTE LTD ever since.</span>
+						<div class="col s12 animatedParent" data-sequence="2000">
+							<div class="card-panel white hoverable animated bounceInLeft" data-id="4">
+								<span class="teal-text">My name is Max Goh. I graduated from Ngee Ann Polytechnic on 2013 with a Diploma in Electronics & Computer Engineering. I have then spent the next 2 years serving the military as an Infantry Sergeant. I have been working as a Software Engineer for Trinax PTE LTD ever since.</span>
 							</div>
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col s12 m12 animatedParent" data-sequence="2000">
-							<div class="card-panel white hoverable animated bounceInLeft" data-id="4" data-sequeunce="20000'">
-								<span class="teal-text">I'm a huge programming enthusiast. Personally, I'm a huge Unix fan, I have been running Arch Linux with Awesome Window Manager for awhile now, along side is my favourite editor VIM.</span>
+						<div class="col s12 animatedParent" data-sequence="2000">
+							<div class="card-panel white hoverable animated bounceInLeft" data-id="4">
+								<span class="teal-text">.</span>
 							</div>
 						</div>
 					</div>
+
 
 					<div class="row">
 						<div class="center-align animatedParent" data-sequence="2000'">
@@ -84,215 +86,275 @@
 						</div>
 					</div>
 
+					<div class="row">
+						<div class="center-align animatedParent" data-sequence="2000'">
+							<h4 class="animated fadeIn" data-id="6">Technical Skills</h4>
+						</div>
+					</div>
+
+					<div class="row">
+						<div clas="container">
+							<div class="col s12 m4 l4 center-align">
+								<h4><b>OPERATING SYSTEMS</b></h4>
+								<p>Experienced coding on all major platforms including Windows, OSX & Linux</p>
+							</div>
+
+							<div class="col s12 m4 l4 center-align">
+								<h4><b>CREATIVE SOFTWARES</b></h4>
+								<p>Familiar with tools such as XCode, PyCharm, vim, Adobe Photoshop, Git and many more.</p>
+							</div>
+
+							<div class="col s12 m4 l4 center-align">
+								<h4><b>LANGUAGES</b></h4>
+								<p>Experienced with Python/Django, Ruby/Rails, Swift, Objective C, C, PHP, HTML5, CSS3, SASS, JavaScript, jQuery, NodeJS, SQL and many more  </p>
+							</div>
+
+						</div>
+					</div>
+
 				</div>
 			</section>
 			<!-- Section (Description) -->
 
-			<hr class="section-divider">
+			<!--<hr class="section-divider">-->
 
 			<!-- Section (Work) -->
-			<section id="work" class="section">
+			<section id="work" class="section animatedParent teal lighten-5" data-sequence="1000'">
 				<div class="container">
-					<h1>Past work</h1>
+					<h1 class="center-align blue-grey-text text-darken-3">What I've done</h1>
 
-					<!-- Row 1 -->
+
+					<div class="timeline">
+						<h2 class=""><b>2015</b></h2>
+
+						<ul class="timeline-items">
+							<li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+								<h3>Millenia Walk</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cupiditate, delectus deserunt doloribus earum eveniet explicabo fuga iste magni maxime mollitia nemo neque, perferendis quod reprehenderit ut, vel veritatis voluptas?</p>
+								<hr>
+								<time>September 2015</time>
+							</li>
+						</ul>
+
+						<ul class="timeline-items">
+							<li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
+								<h3>BreadTalk</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aspernatur consequuntur culpa deserunt ea esse est inventore, ipsa laborum officia, quam quia quidem, rem sunt tempora tenetur ullam voluptatem.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolore harum iure quod ut! Accusamus aspernatur corporis est excepturi facere laudantium nesciunt nihil optio, quaerat quos rerum sunt suscipit voluptate?.</p>
+								<hr>
+								<time>October 2015</time>
+							</li>
+						</ul>
+
+						<ul class="timeline-items">
+							<li class="is-hidden timeline-item">
+								<h3>ToastBox</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur blanditiis dolorem, eos excepturi impedit neque nisi recusandae repudiandae tempora. Ad debitis ducimus est et explicabo, id in nam necessitatibus?</p>
+
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam, culpa eveniet excepturi fugiat, harum laborum laudantium magni nemo nihil officia possimus quaerat quas quod sapiente sit tempora vel? Veritatis.</span></p>
+								<hr>
+								<time>October 2015</time>
+							</li>
+							<li class="is-hidden timeline-item inverted">
+								<h3>DBS</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dignissimos inventore labore maiores mollitia neque nesciunt nulla obcaecati vel velit! Aut, maxime minima? Eos est laborum non optio quidem ut!</p>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem distinctio fugit, harum id magnam perferendis porro sint vel voluptate voluptatibus! Ad adipisci deleniti ea nisi, placeat ratione saepe sunt veritatis.</p>
+								<hr>
+								<time>December 2015</time>
+							</li>
+
+
+						</ul>
+						<h2>2016</h2>
+						<ul class="timeline-items">
+							<li class="is-hidden timeline-item">
+								<h3>Toys 'R' Us</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsum magnam quis vero vitae. Adipisci at doloribus eius expedita id, nobis officiis perferendis quae sint ut. Consectetur nostrum obcaecati veritatis!</p>
+
+								<p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Aliquam asperiores, cum deserunt dicta est facere fuga fugiat laboriosam perspiciatis quae quia ratione rem. Aspernatur earum, est et facilis nobis repudiandae.</p>
+								<hr>
+								<time>January 2016</time>
+							</li>
+							<li class="is-hidden timeline-item inverted">
+								<h3>Nutrition Depot</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, commodi delectus dolor ea maxime modi nobis obcaecati odit, provident quaerat, soluta voluptates! Ex inventore libero placeat quaerat quod sint?</p>
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus doloremque inventore iste officiis porro possimus quis, quod repellat sint. Aliquam dolorum explicabo hic illo modi molestias quae, quia reiciendis!</span>
+									<span>Ab assumenda inventore molestiae optio similique veritatis? Autem cupiditate earum eius fugiat fugit magnam nihil officiis quas qui repudiandae! Assumenda, expedita fugit ipsam natus odio qui similique. Debitis, error, quia.</span></p>
+								<p><a href="http://grands-enfants-timeline.herokuapp.com/">Link</a></p>
+								<hr>
+								<time>February 2016</time>
+							</li>
+							<li class="is-hidden timeline-item">
+								<h3>Singapore Design Week</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, commodi delectus dolor ea maxime modi nobis obcaecati odit, provident quaerat, soluta voluptates! Ex inventore libero placeat quaerat quod sint?</p>
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus doloremque inventore iste officiis porro possimus quis, quod repellat sint. Aliquam dolorum explicabo hic illo modi molestias quae, quia reiciendis!</span>
+									<span>Ab assumenda inventore molestiae optio similique veritatis? Autem cupiditate earum eius fugiat fugit magnam nihil officiis quas qui repudiandae! Assumenda, expedita fugit ipsam natus odio qui similique. Debitis, error, quia.</span></p>
+								<p><a href="http://grands-enfants-timeline.herokuapp.com/">Link</a></p>
+								<hr>
+								<time>March 2016</time>
+							</li>
+							<li class="is-hidden timeline-item inverted">
+								<h3>SK-II</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, commodi delectus dolor ea maxime modi nobis obcaecati odit, provident quaerat, soluta voluptates! Ex inventore libero placeat quaerat quod sint?</p>
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus doloremque inventore iste officiis porro possimus quis, quod repellat sint. Aliquam dolorum explicabo hic illo modi molestias quae, quia reiciendis!</span>
+									<span>Ab assumenda inventore molestiae optio similique veritatis? Autem cupiditate earum eius fugiat fugit magnam nihil officiis quas qui repudiandae! Assumenda, expedita fugit ipsam natus odio qui similique. Debitis, error, quia.</span></p>
+								<p><a href="http://grands-enfants-timeline.herokuapp.com/">Link</a></p>
+								<hr>
+								<time>April 2016</time>
+							</li>
+							<li class="is-hidden timeline-item ">
+								<h3>Pocari Sweat</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, commodi delectus dolor ea maxime modi nobis obcaecati odit, provident quaerat, soluta voluptates! Ex inventore libero placeat quaerat quod sint?</p>
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus doloremque inventore iste officiis porro possimus quis, quod repellat sint. Aliquam dolorum explicabo hic illo modi molestias quae, quia reiciendis!</span>
+									<span>Ab assumenda inventore molestiae optio similique veritatis? Autem cupiditate earum eius fugiat fugit magnam nihil officiis quas qui repudiandae! Assumenda, expedita fugit ipsam natus odio qui similique. Debitis, error, quia.</span></p>
+								<p><a href="http://grands-enfants-timeline.herokuapp.com/">Link</a></p>
+								<hr>
+								<time>May 2016</time>
+							</li>
+							<li class="is-hidden timeline-item inverted">
+								<h3>Macallan</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, commodi delectus dolor ea maxime modi nobis obcaecati odit, provident quaerat, soluta voluptates! Ex inventore libero placeat quaerat quod sint?</p>
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus doloremque inventore iste officiis porro possimus quis, quod repellat sint. Aliquam dolorum explicabo hic illo modi molestias quae, quia reiciendis!</span>
+									<span>Ab assumenda inventore molestiae optio similique veritatis? Autem cupiditate earum eius fugiat fugit magnam nihil officiis quas qui repudiandae! Assumenda, expedita fugit ipsam natus odio qui similique. Debitis, error, quia.</span></p>
+								<p><a href="http://grands-enfants-timeline.herokuapp.com/">Link</a></p>
+								<hr>
+								<time>June 2016</time>
+							</li>
+							<li class="is-hidden timeline-item">
+								<h3>KloudSec</h3>
+								<hr>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, commodi delectus dolor ea maxime modi nobis obcaecati odit, provident quaerat, soluta voluptates! Ex inventore libero placeat quaerat quod sint?</p>
+								<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus doloremque inventore iste officiis porro possimus quis, quod repellat sint. Aliquam dolorum explicabo hic illo modi molestias quae, quia reiciendis!</span>
+									<span>Ab assumenda inventore molestiae optio similique veritatis? Autem cupiditate earum eius fugiat fugit magnam nihil officiis quas qui repudiandae! Assumenda, expedita fugit ipsam natus odio qui similique. Debitis, error, quia.</span></p>
+								<p><a href="http://grands-enfants-timeline.herokuapp.com/">Link</a></p>
+								<hr>
+								<time>July 2016</time>
+							</li>
+
+
+
+						</ul>
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</section>
+		<!-- Section (Work) -->
+
+		<hr class="section-divider">
+
+		<!-- Section (Current Personal Projects) -->
+		<section class="section">
+			<h1 class="center-align">Current Personal Projects</h1>
+			<div class="container">
+
+				<div class="center-block center">
 					<div class="row">
-						<div class="col s12 m4 l4">
-							<div class="card small hoverable stick-action">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="http://muktiutamadigital.com/wp-content/uploads/2013/09/BREADTALK.jpg">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">BreadTalk<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a></p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						<div class="col s12 m4 center-align">
+							<div class="card blue-grey darken-1 hoverable">
+								<div class="card-content white-text">
+									<span class="card-title center-align center center-block"><b>FocalPoint(In Progress)</b></span>
+									<b>Description</b>
+									<hr>
+									<p>A personal project to get an overview on life. Task Management, Finance Management. Workout Management.</p>
+									<b>Tech Used</b>
+									<br>
+									<hr>
+									<div class="chip">Python</div>
+									<div class="chip">Django</div>
+									<div class="chip">NodeJS</div>
+									<div class="chip">Webpack</div>
+									<div class="chip">HTML5</div>
+									<div class="chip">CSS3</div>
+									<div class="chip">Javascript</div>
+									<div class="chip">jQuery</div>
+									<div class="chip">SQLite</div>
 								</div>
 								<div class="card-action">
-									<a href="https://www.youtube.com/watch?v=IuBqlzWgdlA">Video</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="col s12 m4 l4">
-							<div class="card small">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="https://pbs.twimg.com/profile_images/1376404093/Toast_Box_Logo.jpg">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">ToastBox<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a></p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col s12 m4 l4">
-							<div class="card">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="shuvonet-revised-front-end-03.png">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a>
-									</p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<!-- Row 2 -->
-					<div class="row">
-						<div class="col s12 m4 l4">
-							<div class="card small">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="./assets/img/wall.jpg">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">BreadTalk<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a></p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col s12 m4 l4">
-							<div class="card small">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="./assets/img/wall.jpg">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">ToastBox<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a></p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col s12 m4 l4">
-							<div class="card small">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="./assets/img/wall.jpg">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a></p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">SK-II<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</section>
-			<!-- Section (Work) -->
-
-			<hr class="section-divider">
-
-			<!-- Section (Current Personal Projects) -->
-			<section class="">
-				<h1 class="center-align">Current Personal Projects</h1>
-				<div class="container">
-					<div class="row">
-						<div class="col s12 m4">
-							<div class="card">
-								<div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" src="images/office.jpg">
-								</div>
-								<div class="card-content">
-									<span class="card-title activator grey-text text-darken-4">TaskHive<i class="material-icons right">more_vert</i></span>
-									<p><a href="#">This is a link</a></p>
-								</div>
-								<div class="card-reveal">
-									<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-									<p>Here is some more information about this product that is only revealed once clicked on.</p>
+									<a href="https://github.com/MaxGoh/FocalPoint">GitHub</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 
-			</section>
-			<!-- Section (Current Personal Projects) -->
+		</section>
+		<!-- Section (Current Personal Projects) -->
 
-			<hr class="section-divider">
+		<hr class="section-divider">
 
-			<!-- Section (Testimonial) -->
-			<section id="testimonial" class="section">
-				<div class="container">
-					<h1 class="center-align">Testimonial</h1>
-					<div class="center center-block">
-						<a href="./assets/img/testimonial.jpg" data-lightbox="roadtrip"><img class="thumbnail" src="./assets/img/testimonial.jpg"/></a>
-						<a href="./assets/img/testimonial1.jpg" data-lightbox="roadtrip"><img class="thumbnail" src="./assets/img/testimonial1.jpg"/></a>
-					</div>
+		<!-- Section (Testimonial) -->
+		<section id="testimonial" class="section">
+			<div class="container">
+				<h1 class="center-align">Testimonial</h1>
+				<div class="center center-block">
+					<a href="./assets/img/testimonial.jpg" data-lightbox="roadtrip"><img class="thumbnail" src="./assets/img/testimonial.jpg"/></a>
+					<a href="./assets/img/testimonial1.jpg" data-lightbox="roadtrip"><img class="thumbnail" src="./assets/img/testimonial1.jpg"/></a>
 				</div>
-			</section>
-			<!-- Section (Testimonial) -->
+			</div>
+		</section>
+		<!-- Section (Testimonial) -->
 
-			<hr class="section-divider">
+		<hr class="section-divider">
 
-			<!-- Section (Contact) -->
-			<section id="contact" class="section animatedParent" data-sequence="1000'">
-				<div class="container">
-					<h1 class="teal-text center-align header-margin animated fadeInLeft" data-id="10">I would love to hear back from you!</h1>
-					<h3 class="teal-text center-align header-margin animated fadeInRight" data-id="11">Please feel free to ask me any questions you have.</h3>
+		<!-- Section (Contact) -->
+		<section id="contact" class="section animatedParent" data-sequence="1000'">
+			<div class="container">
+				<h1 class="teal-text center-align header-margin animated fadeInLeft" data-id="10">I would love to hear from you!</h1>
+				<h3 class="teal-text center-align header-margin animated fadeInRight" data-id="11">Please feel free to ask me any questions you have.</h3>
 
-					<div class="row">
-						<div class="col s12 offset-m3 m6">
-							<div class="card white darken-1 animated bounceInUp" data-id="12">
-								<div class="card-content teal-text center-align">
-									<span class="card-title">Contact Me</span>
-									<hr>
-									<div class="row">
-										<b>Max Goh</b>
-										<p>+65 91189793</p>
-										<p>maxgohjh@gmail.com</p>
-									</div>
+				<div class="row">
+					<div class="col s12 offset-m3 m6">
+						<div class="card white darken-1 animated bounceInUp" data-id="12">
+							<div class="card-content teal-text center-align">
+								<span class="card-title">Contact Me</span>
+								<hr>
+								<div class="row">
+									<b>Max Goh</b>
+									<p>+65 91189793</p>
+									<p>maxgohjh@gmail.com</p>
 								</div>
-								<div class="card-action center-align">
-									<ul id="contact-list">
-										<li class=""><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-										<li class=""><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-									</ul>
-								</div>
+							</div>
+							<div class="card-action center-align">
+								<ul id="contact-list">
+									<li><a href="https://github.com/maxgoh"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+									<li><a href="https://instagram.com/maxgohjh"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
-
 				</div>
-			</section>
-			<!-- Section (Contact) -->
-			<!--</div>-->
-		<!-- Main (End) -->
 
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/css3-animate-it.js"></script>
-		<script src="assets/js/lightbox.js"></script>
-		<script>
-			$("document").ready(function() {
-			})
-		</script>
+			</div>
+		</section>
+		<!-- Section (Contact) -->
+		<!--</div>-->
+	<!-- Main (End) -->
 
-	</body>
-</html>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/css3-animate-it.js"></script>
+	<script src="assets/js/lightbox.js"></script>
+	<script src="assets/js/jquery.timelify.js"></script>
+	<script>
+		$('.timeline').timelify();
+	</script>
+
+</body>
+		</html>
