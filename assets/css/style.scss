@@ -56,6 +56,20 @@ html, body {
 	}
 }
 
+.resume-list {
+	li {
+		display: inline;
+		padding: 10px;
+		font-size: 2em;
+		u {
+			color: teal;
+		}
+	}
+	u {
+		color: teal;
+	}
+}
+
 .header-margin {
 	margin-top: 50px;
 }
@@ -201,3 +215,5 @@ img {
 .border {
 	border: 2px solid black;
 }
+
+

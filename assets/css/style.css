@@ -42,6 +42,15 @@ html, body {
     color: black;
     font-size: 50px; }
 
+.resume-list li {
+  display: inline;
+  padding: 10px;
+  font-size: 2em; }
+  .resume-list li u {
+    color: teal; }
+.resume-list u {
+  color: teal; }
+
 .header-margin {
   margin-top: 50px; }
 
