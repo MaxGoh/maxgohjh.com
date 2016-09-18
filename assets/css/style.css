@@ -19,6 +19,9 @@ html, body {
 .hide {
   opacity: 0; }
 
+.timeline-items {
+  margin: 0; }
+
 #social-list {
   position: fixed;
   bottom: 5px;
@@ -48,8 +51,13 @@ html, body {
   font-size: 2em; }
   .resume-list li u {
     color: teal; }
-.resume-list u {
-  color: teal; }
+
+.link-list li {
+  display: inline;
+  padding: 10px;
+  font-size: 1.1em; }
+  .link-list li u {
+    color: teal; }
 
 .header-margin {
   margin-top: 50px; }
@@ -185,5 +193,8 @@ img {
 
 .border {
   border: 2px solid black; }
+
+ul.link li {
+  display: inline; }
 
 /*# sourceMappingURL=style.css.map */

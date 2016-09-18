@@ -27,6 +27,13 @@ html, body {
 	//visibility: hidden;
 }
 
+.timeline-items {
+	margin: 0;
+	li {
+
+	}
+}
+
 #social-list {
 	position: fixed;
 	bottom: 5px;
@@ -65,8 +72,16 @@ html, body {
 			color: teal;
 		}
 	}
-	u {
-		color: teal;
+}
+
+.link-list {
+	li {
+		display: inline;
+		padding: 10px;
+		font-size: 1.1em;
+		u {
+			color: teal;
+		}
 	}
 }
 
@@ -216,4 +231,8 @@ img {
 	border: 2px solid black;
 }
 
-
+ul.link {
+	li {
+		display: inline;
+	}
+}
